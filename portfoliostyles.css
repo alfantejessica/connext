@@ -1,0 +1,282 @@
+#toplanding {
+	height: 100vh;
+	width: 100%;
+	background-image: url("img/header2.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	/*filter:grayscale(50%);*/
+}
+
+#heading {
+	padding-left: 15%;
+	padding-top: 20%;
+	color: #FFFFFF;
+	font-family: 'Muli', Helvetica, Arial, sans-serif;
+}
+
+#title {
+	font-size: 5.0em;
+}
+
+#subtitle {
+	font-size: 1.5em;
+	color: black;
+	padding-left: 1%;
+	font-style: bold; 
+}
+
+#topbtns {
+	padding-left: 15%;
+	margin-top: 2%;
+
+}
+
+.btn-dark {
+	margin-left: 10px;
+	margin-right: 10px;
+
+}
+
+.btn-dark:hover {
+	color: #FFFFFF;
+	background-color: transparent;
+	transition: 0.5s;
+	-webkit-transition-timing-function: ease;	
+}
+
+.btn-outline-warning {
+	margin-left: 10px;
+	margin-right: 10px;
+
+}
+
+.btn-outline-warning:hover {
+	color: #FFFFFF;
+	background-color: transparent;
+	transition: 0.5s;
+	-webkit-transition-timing-function: ease;	
+}
+
+#downbtn {
+	position: absolute;
+    bottom: 20px;
+    text-align: center;
+    width: 100%;
+    filter: opacity(85%);
+}
+
+#downlink {
+	color: #FFFFFF;
+}
+
+#downlink:hover {
+	text-decoration: none;
+	filter: opacity(60%);
+	transition: 0.5s;
+	-webkit-transition-timing-function: ease;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #FFBF00;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#navlogo {
+	width: 80%;
+	margin-left: 20px;
+}
+
+#main {
+    padding-top: 16px;
+    background-color: #F2F2F2; 
+}
+
+#navicon {
+	position: -webkit-sticky;
+  	position: sticky;
+  	top: 0;
+  	padding: 10px;
+  	background-color: #EFEFEF;
+  	filter: opacity(90%);
+  	color: #FFBF00;
+}
+
+h2 {
+	text-align: center;
+	color: #DF013A;
+	font-family: 'Muli', Helvetica, Arial, sans-serif;
+}
+
+#about, #portfolio, #contact {
+	padding: 50px;
+}
+
+#about {
+	text-align: center;
+}
+
+#roundicon {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 50%;
+	width: 250px;
+	display: block;
+    margin: 0 auto;
+}
+
+#aboutitles {
+	font-family: 'Muli', Helvetica, Arial, sans-serif;
+	color: #6E6E6E;
+	font-weight: lighter;
+}
+
+#aboutitles:hover {
+	color: #FFBF00;
+	transition: 0.7s;
+	-webkit-transition-timing-function: ease;
+}
+
+#aboutlist1, #aboutlist2, #aboutlist3 {
+  	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+}
+
+#aboutli, #aboutliexpand {
+	border-bottom: 1px solid #ccc;
+	padding-top: 5px;
+	text-align: left;
+	color: #DF013A;
+	width: 300px;
+}
+
+#aboutliexpand:hover {
+	color: #FFBF00;
+	transition: 0.7s;
+	-webkit-transition-timing-function: ease;
+}
+
+#plus {
+	font-size: 15px;
+}
+
+#portfolio {
+	background-color: #FFFFFF;
+}
+
+#workscol {
+	padding-left: 150px;
+	padding-top: 50px;
+	padding-bottom: 40px;
+}
+
+.aboutweb {
+	color: #FFBF00;
+}
+
+.aboutweb:hover {
+	color: #DF013A;
+	text-decoration: underline;
+	transition: 1s;
+	-webkit-transition-timing-function: ease;
+}
+
+.btn-outline-danger {
+	width: 220px;
+}
+
+.btn-outline-danger:hover {
+	filter: opacity(70%);
+	transition: 0.5s;
+	-webkit-transition-timing-function: ease;	
+}
+
+hr {
+	width: 80%;
+}
+
+h3 {
+	font-weight: bold;
+	font-family: 'Muli', Helvetica, Arial, sans-serif; 
+}
+
+h6 {
+	font-style: italic;
+	font-family: 'Muli', Helvetica, Arial, sans-serif;
+	font-size: 1.2em;
+	color: #393733;
+}
+
+#webgifs {
+	width: 254px;
+	height: 254px;
+	box-shadow: 5px 10px 10px #A4A4A4;
+	border-radius: 10px;
+}
+
+#contact {
+	text-align: center;
+	background-color: #252a30;
+}
+
+#gmail {
+	width: 32px;
+}
+
+a {
+	color: #FFBF00;
+}
+
+a:hover {
+	color: #DF013A;
+	transition: 1s;
+	-webkit-transition-timing-function: ease;
+}
+
+// Small devices (landscape phones, 450px and up)
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+// Small devices (landscape phones, 576px and up)
+@media only screen and (max-width: 576px) {
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- ADD GOOGLE ANALYTICS HERE -->
+
+	<meta charset="utf-8">
+	<title>CONNEXT</title>
+	<link rel="icon" href="img/logo.png">
+
+	<link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  	<link href="https://fonts.googleapis.com/css?family=Muli:300" rel="stylesheet">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+ 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  	<link rel="stylesheet" href="portfoliostyles.css">
+
+	<!--Javascript file-->
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+  	<script src = "portfolioscript.js"></script>
+</head>
+
+<body>
+	<!--Top Section-->
+	<div id="toplanding">
+		<!--Headings-->
+		<div id="heading">
+			<h1 class="animated fadeInUp" id="title"><img src="img/logo.png" class="img-fluid" style="width: 60%"></h1>
+			<h4 class="animated fadeInUp" id="subtitle"><i>Connect to Your Future</i></h4>
+		</div>
+		
+		<!--Top navigation buttons-->
+		<div id="topbtns">
+			<a href="#about" style="color:inherit">
+				<button type="button" class="btn btn btn-dark animated fadeInUp">
+					What is Connext?
+				</button>
+			</a>
+			<a href="#portfolio" style="color:inherit">
+				<button type="button" class="btn btn btn-dark animated fadeInUp">
+					How It Works
+				</button>
+			</a>
+			<a href="#contact" style="color:inherit">
+				<button type="button" class="btn btn btn-dark animated fadeInUp">
+					Stay in Touch
+				</button>
+			</a>
+		</div>
+
+		<!--Bottom enter button-->
+		<div id="downbtn">
+			<a href="#main" id="downlink">
+				<h5>Enter</h5>
+				<i class="material-icons">keyboard_arrow_down</i>
+			</a>
+		</div>
+	</div>
+
+	<!--Side bar-->
+	<div id="sidenav" class="sidenav">
+  		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  		<img src="img/logo2.png" id="navlogo" class="img-fluid">
+  		<a href="#about">What is Connext?</a>
+  		<a href="#portfolio">How It Works</a>
+  		<a href="#contact">Stay in Touch</a>
+	</div>
+
+	<!--Main context area-->
+	<div id="main">
+ 	 <span style="font-size:20px;cursor:pointer" onclick="openNav()" id="navicon">&#9776; Navigation</span>
+
+  		<!--About Section-->
+		<div id="about">
+			<div class="container">
+				<h2>What is Connext?</h2>
+				<p>Digital platform that connects students to industry professionals through a matching system based on location, skillset, degree, interests, and a job that fits student employer needs.</p>
+				<br>
+				<hr style="width: 20%;">
+				<br><br>
+
+        <!-- 3 COLUMN DIV -->
+				<div class="row">
+    				<!--Employers-->
+    				<div class="col">
+    				 	<h3 id="aboutitles" data-toggle="collapse" data-target="#aboutlist1"><i class="material-icons" style="font-size: 20px;">add</i> For Employers</h3>
+  						<ul id="aboutlist1" class="collapse">
+    						<li id="aboutli">
+                  Find young professionals looking to break into the industry
+                </li>
+    						<li id="aboutli">
+                  Easily sort and compile resumes
+                </li>
+    						<li id="aboutli">
+                  Find the best fitting employees for your company
+                </li>
+  						</ul>
+    				</div>
+    				<!--Students-->
+    				<div class="col">
+    				 	<h3 id="aboutitles" data-toggle="collapse" data-target="#aboutlist2"><i class="material-icons" style="font-size: 20px;">add</i> For Students</h3>
+  						<ul id="aboutlist2" class="collapse">
+    						<li id="aboutli">
+                  Get matched to opportunities based off of your skills, field, and preferences
+                </a></li>
+    						<li id="aboutli">
+                  Easily connect with industry professionals
+                </a></li>
+    						<li id="aboutli">
+                  Connect with other young professionals in your industry of choice
+                </a></li>
+  						</ul>    				
+    				</div>			
+					<!--Unique Values-->
+    				<div class="col">
+    				<h3 id="aboutitles" data-toggle="collapse" data-target="#aboutlist3"><i class="material-icons" style="font-size: 20px;">add</i> What Makes Us Different?</h3>
+  						<ul id="aboutlist3" class="collapse">
+    						<li id="aboutli">
+                  We are a matching platform that quickly connects businesses to future employees
+                </a></li>
+                <li id="aboutli">
+                  Based on matching algorithms we connect you to jobs that best fit your skills and needs
+                </a></li>
+                <li id="aboutli">
+                  Networking made easy
+                </a></li>
+              </ul>           
+            </div>
+    			</div>	
+			</div>
+		</div>
+
+		<!--Portfolio Section-->
+		<div id="portfolio">
+			<div class="container">
+				<h2>How It Works</h2>
+        <!--
+        Explain features here, maybe have some simple graphics
+        - swipe and match on the go
+        - based on your information and preferences, we will match you to internships that suit your needs
+        - etc
+        -->
+				<div class="row">
+					<!--ToDo List-->
+    				<div class="col" id="workscol">
+      					<h3>Set Up Your Portfolio</h3>
+                <h6>Upload your resume, cover letter, and select your preferences so that we can find you the perfect internship.</h6>
+    				</div>
+    				<!--Gif 1-->
+    				<div class="col" id="workscol">
+      					<img src="img/portfolio.png" id="webgifs">
+   	 				</div>
+  				</div>
+
+  				<hr>
+
+  				<div class="row">
+    				<!--Gif 2-->
+    				<div class="col" id="workscol">
+      					<img src="img/puzzle.jpg" id="webgifs" style="width: 350px;">
+   	 				</div>
+					<!--Content 2-->
+    				<div class="col" id="workscol">
+      					<h3>Match On The Go</h3>
+      					<h6>Sick of spending hours sifting through post after post on job boards? Connext saves you time by bringing the internships to YOU.</h6>
+                <h6>Based on your information and preferences, we will match you to internships that suit your skill level and needs.</h6>
+                <h6>Just swipe through the list that was specifically tailored to your profile until you find the perfect match!</h6>
+    				</div>
+  				</div>
+
+  				<hr>
+
+				<div class="row">
+					<!--Content 3-->
+    				<div class="col" id="workscol">
+      					<h3>Making Connections Easier</h3>
+      					<h6>Stay up-to-date with upcoming networking events in your area.</h6>
+                <h6>Employers can find new talent and students can gain the experience they need to advance their careers.</h6>
+    				</div>
+    				<!--Gif 3-->
+    				<div class="col" id="workscol">
+      					<img src="img/network.png" id="webgifs">
+   	 				</div>
+  				</div>
+
+			</div> <!-- end of container -->
+		</div> <!-- end of portfolio -->
+
+		<!--Contact Section-->
+		<div id="contact">
+			<div class="container">
+				<h2>Stay in Touch</h2>
+        <p style="color: white;">Get notified when Connext is released.</p>
+        <div class="input-group">
+           <input type="email" class="form-control" id="email" placeholder="Enter email">
+           <span class="input-group-btn">
+                <button id="signup" onclick="btnFunc()" class="btn btn-outline-warning" type="button">Subscribe for Updates</button>
+           </span>
+        </div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
