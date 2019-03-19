@@ -214,7 +214,7 @@
 				<h2>Stay in Touch</h2>
         <p style="color: white;">Get notified when Connext is released.</p>
         <div class="input-group">
-	<form>
+	<form onsubmit="myFunction()">
            <input type="email" class="form-control" id="email" placeholder="Enter email">
            <span class="input-group-btn">
                 <button id="signup" onclick="btnFunc()" class="btn btn-outline-warning" type="submit">Subscribe for Updates</button>
@@ -225,5 +225,11 @@
 		</div>
 	</div>
 </body>
+
+<script>
+function myFunction() {
+  alert("Your email has been submitted.");
+}
+</script>
 
 </html>
