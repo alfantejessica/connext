@@ -213,23 +213,17 @@
 			<div class="container">
 				<h2>Stay in Touch</h2>
         <p style="color: white;">Get notified when Connext is released.</p>
-        <div class="input-group">
-	<form onsubmit="myFunction()">
+        <form class="input-group">
            <input type="email" class="form-control" id="email" placeholder="Enter email">
            <span class="input-group-btn">
-                <button id="signup" class="btn btn-outline-warning" type="submit" method="post" action="/thankyou.html>Subscribe for Updates</button>
+                <a href="https://alfantejessica.github.io/connext/success.html" target="_blank">
+                <button id="signup" onclick="btnFunc()" class="btn btn-outline-warning" type="button">Subscribe for Updates</button>
+                </a>
            </span>
-	</form>
-        </div>
+        </form>
 			</div>
 		</div>
 	</div>
 </body>
-
-<script>
-function myFunction() {
-  alert("Your email has been submitted.");
-}
-</script>
 
 </html>
